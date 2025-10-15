@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisata Kota Bandung</title>
+  <style>
+    /* === Background menyala === */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(270deg, #00c6ff, #0072ff, #ff00c8, #00ff95);
+      background-size: 800% 800%;
+      animation: gradientMove 12s ease infinite;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    @keyframes gradientMove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* === Header === */
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #fff;
+      text-shadow: 0 0 15px cyan;
+    }
+
+    header p {
+      color: #eee;
+      font-size: 1.1em;
+    }
+
+    /* === Section === */
+    section {
+      background: rgba(255, 255, 255, 0.1);
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 16px;
+      max-width: 850px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 25px rgba(255,255,255,0.4);
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      text-shadow: 0 0 10px #00e6ff;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+      margin-top: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 350px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 15px;
+      box-shadow: 0 0 15px rgba(0,255,255,0.4);
+    }
+
+    .desc {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 15px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+    }
+
+    footer p {
+      color: #fff;
+      text-shadow: 0 0 10px cyan;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ Wisata Kota Bandung ✨</h1>
+    <p>Menjelajahi keindahan dan pesona Kota Kembang</p>
+  </header>
+
+  <!-- Gedung Sate -->
+  <section>
+    <h2>🏛️ Gedung Sate</h2>
+    <img src="images.jpeg" alt="Gedung Sate Bandung">
+    <div class="desc">
+      <p>Gedung Sate adalah ikon Kota Bandung yang dibangun tahun 1920 dengan arsitektur klasik kolonial Belanda. Kini menjadi kantor Gubernur Jawa Barat dan simbol sejarah Bandung.</p>
+    </div>
+    <iframe src="gedung sate.mp4" title="Video Gedung Sate Bandung"></iframe>
+  </section>
+
+  <!-- Tangkuban Perahu -->
+  <section>
+    <h2>🌋 Gunung Tangkuban Perahu</h2>
+    <img src="hq720.jpg" alt="Gunung Tangkuban Perahu">
+    <div class="desc">
+      <p>Gunung berapi aktif di utara Bandung ini terkenal karena bentuknya yang menyerupai perahu terbalik. Legenda Sangkuriang menjadikan tempat ini sarat cerita rakyat dan panorama yang menakjubkan.</p>
+    </div>
+    <iframe src="gunung Tangkuban perahu.mp4" title="Video Tangkuban Perahu"></iframe>
+  </section>
+
+  <!-- Kawah Putih -->
+  <section>
+    <h2>🏞️ Kawah Putih Ciwidey</h2>
+    <img src="kawah putih (1).jpeg" alt="Kawah Putih Ciwidey">
+    <div class="desc">
+      <p>Danau vulkanik dengan warna putih kehijauan di Ciwidey ini menawarkan keindahan alam yang memukau. Suhu sejuk dan kabut tipis membuat suasananya sangat romantis.</p>
+    </div>
+    <iframe src="kawah putih Ciwidey.mp4" title="Video Kawah Putih Ciwidey"></iframe>
+  </section>
+
+  <!-- Jalan Braga -->
+  <section>
+    <h2>🏙️ Jalan Braga</h2>
+    <img src="images (2).jpeg" alt="Jalan Braga Bandung">
+    <div class="desc">
+      <p>Jalan Braga adalah kawasan bersejarah yang dikenal dengan bangunan kolonial, kafe, dan galeri seni. Tempat favorit untuk berjalan santai menikmati suasana klasik Bandung.</p>
+    </div>
+    <iframe src="jalan Braga.mp4" title="Video Jalan Braga Bandung"></iframe>
+  </section>
+
+  <!-- Trans Studio Bandung -->
+  <section>
+    <h2>🎢 Trans Studio Bandung</h2>
+    <img src="images (3).jpeg" alt="Trans Studio Bandung">
+    <div class="desc">
+      <p>Trans Studio Bandung merupakan taman hiburan indoor terbesar di Indonesia dengan wahana seru, teater, dan mall yang lengkap untuk semua usia.</p>
+    </div>
+    <iframe src="trans studio.mp4" title="Video Trans Studio Bandung"></iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Wisata Bandung | Dibuat dengan 💙 Efek Neon oleh GPT-5</p>
+  </footer>
+
+</body>
+</html>
